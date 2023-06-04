@@ -4,18 +4,13 @@
   .homeContainer {
     flex: 6;
 
-    .widgets,.traffic {
+    .widgets,
+    .notificationTimeline,
+    .charts{
       display: flex;
       gap: 20px;
       padding: 20px;
     }
-
-    .charts {
-      display: flex;
-      gap: 20px;
-      padding: 20px;
-    }
-
     .listContainer {
       padding: 20px;
       margin: 20px;

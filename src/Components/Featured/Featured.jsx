@@ -56,7 +56,7 @@ const Featured = () => {
       <div className="bottom">
         <div className="summary">
           {latestOrderToday?.map((elem) => (
-            <>
+            <React.Fragment key={elem?.name}>
               {elem.isDivider && <hr />}
               <div className="item">
                 <div className="left">
@@ -110,7 +110,7 @@ const Featured = () => {
                   </div>
                 </div>
               </div>
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
